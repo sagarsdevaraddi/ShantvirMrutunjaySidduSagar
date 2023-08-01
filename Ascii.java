@@ -6,6 +6,7 @@ class Ascii
 	public static void main(String[] args) 
 	{
 		int i,n;
+		System.out.println("hi"):
 		Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
 		n = sc.nextInt();
