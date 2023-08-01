@@ -7,6 +7,7 @@ class Ascii
 	{
 		int i,n;
 		System.out.println("hi"):
+			System.out.println("hi2");
 		Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number: ");
 		n = sc.nextInt();
