@@ -1,0 +1,85 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; 
+  
+
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(182, 197, 197);
+}
+
+.primary-button{
+  background-color: rgb(113, 2, 125);
+  border-radius: 6px;
+  font-weight: 500;
+  color: rgb(223, 213, 213) !important;
+  padding: 6px 85px;
+  transition: 0.25s ease-out;
+  text-align: center;
+}
+
+.primary-button:hover{
+  cursor: pointer;
+  background-color: rgb(210, 57, 30);
+}
+
+h2{
+  text-align: center;
+  font-weight:bolder;
+  margin-bottom: 30px;
+}
+
+.flex{
+  display: flex;
+}
+
+body{
+  background-color: radial-gradient(#C6EA8D ,#FE90AF);
+  background-image: url(/assets/loginback);
+}
+
+.login{
+  background-color:rgba(208, 222, 128, 0.5);
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 30px;
+  width: 20%; 
+  height: 30%;
+  margin:10% auto;
+  /* box-shadow: 10px 10px 5px rgb(162, 160, 160); */
+  border-radius: 20px;
+}
+
+.password input{
+  padding: 5px;
+}
+
+.password p{
+  font-size: 11px;
+  text-align: end;
+}
+
+.username input{
+  padding: 5px;
+}
+
+.signup{
+  padding-top: 7px;
+  flex-direction: column;
+  gap: 40px;
+}
+.signup-footer{
+  text-align: center;
+}
+
+.logo img{
+  width: 30px;
+  padding-right: 5px;
+  cursor: pointer;
+}
